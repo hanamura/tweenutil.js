@@ -93,7 +93,18 @@ var tween = new tweenutil.SyncTween({value: 0})
 
 ### APIs
 
-**SyncTween(options)**
+**new SyncTween([options])**
+
+Following properties are available:
+
+- options.value
+- options.duration
+- options.wait
+- options.ease
+- options.target
+- options.set
+
+See below for the detail.
 
 **.value()**
 
@@ -117,12 +128,12 @@ Gets/sets `ease`.
 **.target()**  
 **.target(object)**
 
-Gets/sets `target`. See “How to Use” for more information.
+Gets/sets `target`. See “[How to Use](#how-to-use)” for more information.
 
 **.set()**  
 **.set(stringOrFunction)**
 
-Gets/sets `set`. See “How to Use” for more information.
+Gets/sets `set`. See “[How to Use](#how-to-use)” for more information.
 
 **.dest()**
 
