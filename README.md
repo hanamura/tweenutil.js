@@ -6,6 +6,8 @@
 
 ## tweenutil.SyncTween
 
+A wrapper of TweenJS in a different idea.
+
 ### How to Use
 
 Simple linear tween:
