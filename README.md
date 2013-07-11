@@ -154,3 +154,19 @@ Syncs `value` and `dest` immediately by changing `value`.
 **.synvDest()**
 
 Syncs `value` and `dest` immediately by changing `dest`. Same as `tween.dest(tween.value())`.
+
+**event type: 'start'**
+
+Dispatched on start of tween.
+
+**event type: 'change'**
+
+Dispatched when `value` changes.
+
+**event type: 'end'**
+
+Dispatched on end of tween.
+
+**event type: 'dest'**
+
+Dispatched when `dest` changes.
