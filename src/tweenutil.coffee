@@ -127,3 +127,7 @@ tweenutil.SyncTween = class SyncTween
 		@dispatchEvent(type: 'end')
 
 createjs.EventDispatcher.initialize(SyncTween.prototype)
+
+tweenutil.cssProxy = (name, suffix) ->
+	(value) ->
+		@style[name] = String(value) + suffix;
