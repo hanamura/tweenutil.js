@@ -172,3 +172,7 @@ Dispatched on end of tween.
 **event type: 'dest'**
 
 Dispatched when `dest` changes.
+
+## License
+
+MIT License
