@@ -153,7 +153,7 @@ Returns `true` if current `value` equals `dest` and no tweens are working.
 
 Syncs `value` and `dest` immediately by changing `value`.
 
-**.synvDest()**
+**.syncDest()**
 
 Syncs `value` and `dest` immediately by changing `dest`. Same as `tween.dest(tween.value())`.
 
